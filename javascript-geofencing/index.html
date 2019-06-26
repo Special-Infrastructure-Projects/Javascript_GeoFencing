@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+
+	<html>
+	
+		<head>
+		</head>
+		
+		<body>
+		
+			<div id='result'></div>
+		
+			<script src='geofence.js'></script>
+			<script>
+				locations = {
+					"greenwich_peninsula":geoFence({"Center":[51.4989115,0.0084268],"Size":"300"}),
+					"battersea_power_station":geoFence({"Center":[51.4818,0.1444],"Size":"300"})
+				};
+			</script>
+			<script src='monitor-fence.js'></script>
+			<script src='inside-fence.js'></script>
+
+		</body>
+		
+	</html>
